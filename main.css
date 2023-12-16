@@ -1,14 +1,53 @@
 
 
-*=
+* {
+    /* border: 1px solid red; */
+}
 
 body {
     background-color: #fcfaf6;
 
 }
 
-.top-nav {
-    display: flex;
-    list-style-type: none;
+li {
+    padding: 5px;
+}
 
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #685555;
+
+}
+
+.navbar a {
+    /* float: left; */
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bbafaf;
+    min-width: 160px;
+    box-shadow: 10px rgb(rgb(196, 190, 190), rgb(191, 197, 191), rgb(189, 189, 196));
+    z-index: 1;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
