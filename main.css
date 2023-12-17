@@ -1,34 +1,37 @@
 
 
-* {
-    /* border: 1px solid red; */
-}
+* { border: 1px solid red; }
 
 body {
     background-color: #fcfaf6;
-
+    /* width: 1000px; */
+    margin: auto;
 }
-
+/* Uper nav bar starts here */
 li {
     padding: 5px;
 }
 
-.navbar {
+.uper-nav-div {
+    background-color: #685555;
+}
+
+.uper-navbar {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
     overflow: hidden;
-    background-color: #685555;
-
+    margin: 0 20%;
 }
 
-.navbar a {
+.uper-navbar a {
     /* float: left; */
     color: white;
     text-decoration: none;
 }
 
-.dropdown {
+.dropdown-login {
+    margin: ;
     float: left;
     overflow: hidden;
 }
@@ -40,7 +43,7 @@ li {
     position: absolute;
     background-color: #bbafaf;
     min-width: 160px;
-    box-shadow: 10px rgb(rgb(196, 190, 190), rgb(191, 197, 191), rgb(189, 189, 196));
+    /* box-shadow: 10px rgb(rgb(196, 190, 190), rgb(191, 197, 191), rgb(189, 189, 196)); */
     z-index: 1;
 }
 
@@ -50,4 +53,72 @@ li {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+/* Uper nav bar ends here */
+
+/* Main nav bar begins here */
+
+.mainNav {
+    list-style-type: none;
+    margin: 0 20%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#oscar {
+    font-weight: ;
+    font-size: 35px;
+    color: blue;
+}
+
+
+
+
+
+#find-doctor {
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+/* Main nav bar ends here */
+
+
+
+main {
+    background-color: aqua;
+}
+
+.main-div {
+    margin: 0 20%;
+    height: 400px;
+    display: flex;
+}
+
+.article-div {
+    width: 50%;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.img-div {
+    width: 50%;
+    height: 300px;
+
+}
+
+.div-4-boxes {
+    margin: 0 20%;
+    display: flex;
+}
+
+.div-4-boxes div {
+    height: 200px;
+    width: 25%;
 }
